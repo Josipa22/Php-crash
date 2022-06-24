@@ -28,6 +28,7 @@ $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
           break;
         case 3:
           echo '***' . "<br>";
+          break;
         case 4:
           echo '****' . "<br>";
           break;
