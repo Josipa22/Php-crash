@@ -36,7 +36,7 @@ $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
           echo '*****' . "<br>";
           break;
         default:
-          echo 'No rating';
+          echo 'No rating' . "<br>";
       }
       ?>
       <a href=<?php echo $item['Video_URL'] ?>><?php echo $item['Video_URL'] ?></a>
