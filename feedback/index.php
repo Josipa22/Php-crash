@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 
   if (($_POST['rating']) < 1 && ($_POST['rating']) > 5) {
     $rateErr = 'Grade is not in range 1-5!';
-  } else if (!empty($_POST['rating']) && $_) {
+  } else if (!empty($_POST['rating'])) {
     $rating = filter_input(INPUT_POST, 'rating', FILTER_SANITIZE_NUMBER_INT);
   }
 
